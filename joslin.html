@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PROJET GT</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="joslin.css">
+		<script type="text/javascript">
+			
+			function facebook()
+			{
+				alert("Notre compte facebook est: GLOBALTECH");
+			}
+			function Whatsapp()
+			{
+				alert("Notre numéro Whatsapp est: +237 56 87 47 08");
+			}
+			function Instagram()
+			{
+				alert("Notre compte Instagram est: GlobalTech");
+			}
+			function Twitter()
+			{
+				alert("Notre compte Twitter est: @Globaltech");
+			}
+			function datesis()
+			{
+				a=new Date()
+				alert(a);
+			}
+
+
+
+
+			function datesi()
+			{
+				function datechange()
+				{
+				 	jour=new Array("Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi");
+					mois=new Array("Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Aout","Septembre","Octobre","Novembre","Décembre");
+					ddd= new Date();
+					aa=ddd.getFullYear();
+					m=ddd.getMonth();
+					j=ddd.getDay();
+					dd=ddd.getDate();
+					hh=ddd.getHours();
+					mi=ddd.getMinutes();
+					ss=ddd.getSeconds();
+					mm=mois[m];
+					jj=jour[j];
+					resultat.value=(jj+" "+dd+" "+mm+" "+aa+" / "+hh+":"+mi+":"+ss);
+				}
+				setInterval(datechange,1000);
+			}
+
+		</script>
+	</head>
+
+	<body>
+		<body onload="datesi();">
+		<header id="header">
+			<img src="logojoslin1.jpg" class="logo" title="GLOBAL TECH">
+			<div id="hdiv1"><div class="hdiv11"><span class="global">Global</span><span class="tech">Tech</span></div></div>
+			<img src="Facebook black.png" id="Facebook" title="Compte Facebook" onclick="facebook();">
+			<img src="Whatsapp black.png" id="Whatsapp" title="Compte Whatsapp" onclick="Whatsapp();">
+			<img src="Instagram black.png" id="Instagram" title="Compte Instagram" onclick="Instagram();">
+			<img src="Twitter black.png" id="Twitter" title="Compte Twitter" onclick="Twitter();">
+			<img src="RSS black.png" id="RSS" title="Flux RSS">
+			<output name="resultat" id="resultat" onclick="datesis();"></output>
+			<form id=hform>
+				<select>
+					<option>FR</option>
+					<option>EN</option>
+				</select>
+			</form>
+		</header>
+		<nav>
+			<ul>
+				<li class="accueil"><a href="index.html" class="titre">ACCUEIL</a></li>
+				<li class="agenda"><a href="agenda.html" class="titre">COURS</a>
+					<ul class="sousmenu">
+						<li><a href="#">Matiéres scientifiques</a></li>
+						<li><a href="#">Matières littéraires</a></li>
+						<li><a href="#">Matiéres facultatives</a></li>
+					</ul>
+				</li>
+                <li class="lien"><a href="liens.html" class="titre">EXERCICES</a>
+		            <ul class="sousmenu">
+			            <li><a href="#">Inscription</a></li>
+	                    <li><a href="#">Pedagogie de l'école</a></li>
+		                <li><a href="#">Formations disponibles</a></li>
+		                <li><a href="#">Exemples/Exercices</a></li>
+	                </ul>
+                </li>
+                <li class="contact"><a href="contact.html" class="titre">CORRIGES</a>
+		            <ul class="sousmenu">
+		                <li><a href="#">Administration</a></li>
+		                <li><a href="#">Personnel</a></li>
+		                <li><a href="#">AE-SUP'PTIC</a></li>
+	                </ul>
+	            </li>
+				<li class="plan"><a href="plan.html" class="titre">RECHERCHE</a>
+		            <ul class="sousmenu">
+		                <li><a href="#">Cours en ligne</a></li>
+		                <li><a href="#">Hebergement</a></li>
+		                <li><a href="#">Association des étudiants</a></li>
+	                </ul>
+	            </li>
+	        </ul>
+	    </nav>
+	    <img src="logojoslin2.jpg" class="bg1">
+	</body>
+
+</html>

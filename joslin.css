@@ -1,0 +1,326 @@
+.logo
+{
+	height: 140px;
+	width: 140px;
+	background-color: black;
+}
+
+#Instagram,#Twitter,#Whatsapp,#Facebook,#RSS
+{
+	height: 30px;
+	width: 30px;
+	margin: auto;
+}
+#Instagram:hover,#Twitter:hover,#Whatsapp:hover,#Facebook:hover,#RSS:hover
+{
+	height:40px;
+	width: 40px;
+}
+body
+{
+	font-family: Baskerville Old Face;
+}
+input
+{
+	font-family: Baskerville Old Face;
+	font-size: 20px;
+}
+button
+{
+	font-family: Baskerville Old Face;
+	font-size: 20px;
+}
+select
+{
+	font-family: Baskerville Old Face;
+	font-size: 20px;
+}
+label
+{
+	font-size: 20px;
+}
+header
+{
+	display:inline-flex;
+	background-color: white;
+	color: white;
+	width: 100%;
+	height: 20%;
+	top:0px;
+	bottom:110%;
+	left: 0px;
+	position: absolute;
+}
+#hdiv1
+{
+	font-size: 30px;
+	font-family: Baskerville Old Face;
+	vertical-align: top;
+	width: 410px;
+	margin-right:25%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#hform
+{
+	margin: auto;
+}
+#resultat
+{
+	font-size: 25px;
+	color:black;
+	width:200px;
+	margin: auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+	border-right:3px outset black;
+	border-left:3px inset black;
+}
+.global
+{
+	color: rgb(32, 32, 87);
+	font-size: 85px;
+}
+.tech
+{
+	color: rgb(48, 48, 54);
+	font-size: 85px;
+}
+.global::first-letter
+{
+	font-weight: bold;
+}
+.tech::first-letter
+{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav
+{
+	top:20%;
+	bottom: 100%;
+	left:0%;
+	right: 0%;
+	height: 10%;
+	width: 100%;
+	position: absolute;
+	font-family: 'Baskerville Old Face';
+	font-size: 20px;
+	float: right;
+	background-color: white;
+}
+nav > ul
+ {
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+
+nav li
+{
+	list-style-type: none;
+}
+.titre
+{
+	text-align: center;
+}
+.sousmenu
+{
+	display: none;
+}
+/*#heure
+{
+	text-align:right;
+}*/
+
+nav > ul::after
+{
+	content:"";
+    display: block;
+    clear: both;
+}
+nav a
+{
+	display: inline-block;
+	text-decoration: none;
+}
+nav > ul > li > a
+{
+	padding: 20px 10px 20px 10px;
+	color: #000;
+}
+.sousmenu
+{
+	display: none;
+}
+nav li:hover .sousmenu
+{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+.sousmenu li
+{
+	border-bottom: 1px solid #CCC;
+}
+.sousmenu li a
+{
+	padding: 15px 30px;
+	font-size: 20px;
+	color: #31008b;
+	width: 270px;
+}
+.accueil:hover
+{
+	border-top: 5px solid #e44d26;
+	border-bottom: 5px solid black;
+	background-color: rgba(228,77,38,0.15);
+	font-weight: bold;
+}
+.agenda:hover
+{
+	border-top: 5px solid #0070bb;
+	/*border-bottom: 5px solid #f1dc4f;*/
+	background-color: rgba(000,112,192,0.15);
+	font-weight: bold;
+}
+.lien:hover
+{
+	border-top: 5px solid #f1dc4f;
+	/*border-bottom: 5px solid #f1dc4f;*/
+	background-color: rgba(241,211,79,0.15);
+	font-weight: bold;
+}
+.contact:hover
+{
+	border-top: 5px solid #0c9b0c; 
+	/*border-bottom: 5px solid #f1dc4f;*/
+	background-color: rgba(59, 236, 53, 0.15); 
+	font-weight: bold;
+}
+.plan:hover
+{
+	border-top: 5px solid #da0c0c; 
+	/*border-bottom: 5px solid #f1dc4f;*/
+	background-color: rgba(235, 41, 41, 0.15); 
+	font-weight: bold;
+}
+nav ul li
+{
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
+	float: left;
+	position: relative;
+}
+nav > ul > li:hover a
+{
+	padding: 5px 20px 10px 20px;
+}
+.accueil:hover 
+{
+	padding: 10px 0px 10px 0px;
+	font-size: 20px;
+}
+.agenda:hover
+{
+	padding: 10px 0px 10px 0px;
+	font-size: 20px;
+}
+.lien:hover 
+{
+	padding: 10px 0px 10px 0px;
+	font-size: 20px;
+}
+.contact:hover 
+{
+	padding: 10px 0px 10px 0px;
+	font-size: 20px;
+}
+.plan:hover
+{
+	padding: 10px 0px 10px 0px;
+	font-size: 20px;
+}
+.accueil .sousmenu
+{
+	background-color: rgb(230,100,40);
+}
+.agenda .sousmenu
+{
+	background-color: rgb(000,160,240);
+}
+.lien .sousmenu
+{
+	background-color: rgb(247, 199, 44);
+}
+.contact .sousmenu
+{
+	background-color: rgb(28,236,44);
+}
+.plan .sousmenu
+{
+	background-color: rgb(240, 6, 6); 
+}
+.sousmenu li:hover a
+{
+	color: #EEE;
+	font-weight: bold;
+}
+.accueil .sousmenu li:hover
+{
+	background-color: rgb(210,77,60);
+}
+.agenda .sousmenu li:hover
+{
+	background-color: rgb(000,115,200);
+}
+.lien .sousmenu li:hover
+{
+	background-color: rgb(200,165,75);
+}
+.contact .sousmenu li:hover
+{
+	background-color: rgb(28,165,20);
+}
+.plan .sousmenu li:hover
+{
+	background-color: rgb(129, 3, 3); 
+}
+.accueil,.agenda,.lien,.contact,.plan
+{
+	width: 20%;
+	text-align: center;
+}
+
+.bg1
+{
+	position: absolute;
+	top:31%;
+	width:100%;
+	height:200%;
+	opacity: 0.5;
+}
